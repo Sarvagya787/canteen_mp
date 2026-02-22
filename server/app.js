@@ -39,8 +39,8 @@ app.use("/webhook", require("./routes/razorpay-webhook"));
 app.use(express.json())
 app.use(express.urlencoded({extended:true}));
 //app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
-app.use('/uploads', express.static('uploads')); // img ke liye static folder serve krne ke liye
-
+//app.use('/uploads', express.static('uploads')); // img ke liye static folder serve krne ke liye
+app.set('trust proxy', 1);
 app.use(session({
   name: 'college_canteen.sid',
   secret: process.env.SESSION_SECRET,

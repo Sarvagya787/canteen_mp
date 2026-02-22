@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, createHashRouter } from "react-router-dom";
 import App from "../App.jsx";
 import { ProtectedRoute } from "../shared/store/auth-context.jsx";
 
@@ -8,7 +8,7 @@ import staffRoutes from "./staff.routes.jsx";
 import NotFoundPage from "../modules/user/pages/404NotFound.jsx";
 import ScrollToTop from "../shared/components/ScrollOnTop.jsx";
 import kitchneRoutes from "./kitchen.routes.jsx";
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     element: (
       <ScrollToTop>

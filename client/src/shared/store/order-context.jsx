@@ -2,7 +2,7 @@
 import { useReducer, useMemo, createContext, useContext, useEffect, useState } from "react";
 import { useCart } from "./cart-context";
 import useAuth from "../hooks/useAuth";
-const baseURL = import.meta.env.VITE_SERVER_BASE_URL;
+const baseURL = https://canteen-mp.onrender.com;
 
 const OrderContext = createContext(null);
 
@@ -155,7 +155,7 @@ export const OrderProvider = ({ children }) => {
       //NO need for this shit. Now do payment will handle all cases
       // 3. Open Razorpay
       // const options = {
-      //   key: import.meta.env.VITE_RAZORPAY_KEY_ID,
+      //   key: rzp_test_S9NPuZmp1xrj70,
       //   amount: razorpay.amount,
       //   currency: razorpay.currency,
       //   name: "College Canteen",
@@ -190,7 +190,7 @@ export const OrderProvider = ({ children }) => {
  const doPayment = (orderObj) => {
       if(!orderObj || !orderObj.razorpayOrderId) return;
       
-      const razorpayKey = import.meta.env.VITE_RAZORPAY_KEY_ID;
+      const razorpayKey = rzp_test_S9NPuZmp1xrj70;
 
       if (!razorpayKey) {
           console.error("Razorpay key is undefined. Check your .env file and restart Vite.");

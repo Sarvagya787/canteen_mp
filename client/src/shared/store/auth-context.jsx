@@ -2,7 +2,7 @@ import { useEffect, useContext, useState, createContext, useMemo } from "react";
 import { useLocation, useNavigate, Outlet, Navigate } from "react-router-dom";
 import HomeLoader from "../components/HomeLoader";
 
-const baseURL = import.meta.env.VITE_SERVER_BASE_URL;
+const baseURL = https://canteen-mp.onrender.com;
 
 export const AuthContext = createContext({
   userState: null,

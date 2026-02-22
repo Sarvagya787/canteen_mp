@@ -7,7 +7,7 @@ import CurrentOrderCard from "../components/CurrentOrderCard";
 import OrderHistoryCard from "../components/OrderHistoryCard";
 import PlainMessage from "../../../shared/components/PlainMessage";
 import Footer from "../components/Footer";
-const baseURL = import.meta.env.VITE_SERVER_BASE_URL;
+const baseURL = https://canteen-mp.onrender.com;
 const OrdersPage = () => {
   const { userState } = useContext(AuthContext);
   const navigate = useNavigate();

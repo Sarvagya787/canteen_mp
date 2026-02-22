@@ -2,7 +2,7 @@ import { useEffect, useReducer, createContext, useMemo } from "react";
 import useAuth from "../hooks/useAuth";
 
 // 1. URL FIX
-const baseURL = import.meta.env.VITE_SERVER_BASE_URL;
+const baseURL = https://canteen-mp.onrender.com;
 
 const initialActiveOrderState = {
   pending: [],

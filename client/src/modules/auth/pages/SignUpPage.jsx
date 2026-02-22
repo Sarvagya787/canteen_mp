@@ -8,7 +8,7 @@ import AuthLeftDesktopVisual from '../components/AuthLeftDesktopVisuals';
 import { useContext } from 'react';
 import { AuthContext } from '../../../shared/store/auth-context';
 import PlainMessage from '../../../shared/components/PlainMessage';
-const baeURL = import.meta.env.VITE_SERVER_BASE_URL;
+const baeURL = https://canteen-mp.onrender.com;
 const SignupPage = () => {
 
   const navigate = useNavigate();

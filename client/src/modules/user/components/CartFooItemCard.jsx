@@ -4,7 +4,7 @@ import { HiPlus, HiMinus} from "react-icons/hi";
 import { MdDeleteOutline } from "react-icons/md";
 import VegIndicator from "./VegIndicator";
 import { useOrder } from "../../../shared/store/order-context"; // 👈 IMPORT ORDER CONTEXT
-const baseURL = import.meta.env.VITE_SERVER_BASE_URL;
+const baseURL = https://canteen-mp.onrender.com;
 
 const CartFoodItemCard = ({ cartFoodItem , deleteFunction, loadingState, updateQuantity, totalQty }) => {
 

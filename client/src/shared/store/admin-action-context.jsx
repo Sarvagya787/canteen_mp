@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 
 // MATCHING YOUR EXISTING HARDCODED URL
-const baseURL = import.meta.env.VITE_SERVER_BASE_URL; 
+const baseURL = https://canteen-mp.onrender.com; 
 
 export const AdminActionContext = createContext(null);
 

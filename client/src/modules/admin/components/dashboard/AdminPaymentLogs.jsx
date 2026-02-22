@@ -3,7 +3,7 @@ import { IoSearch, IoWalletOutline, IoCloudDownloadOutline } from "react-icons/i
 import PlainMessageAdminStaff from "../../../../shared/components/PlainMessageAdminStaff";
 
 // SAFETY FIX: Hardcoded URL
-const baseURL = https://canteen-mp.onrender.com;
+const baseURL = "https://canteen-mp.onrender.com";;
 
 const AdminPaymentLogs = () => {
   const [logs, setLogs] = useState([]);

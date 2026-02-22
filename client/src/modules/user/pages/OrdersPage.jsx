@@ -7,7 +7,7 @@ import CurrentOrderCard from "../components/CurrentOrderCard";
 import OrderHistoryCard from "../components/OrderHistoryCard";
 import PlainMessage from "../../../shared/components/PlainMessage";
 import Footer from "../components/Footer";
-const baseURL = https://canteen-mp.onrender.com;
+const baseURL = "https://canteen-mp.onrender.com";;
 const OrdersPage = () => {
   const { userState } = useContext(AuthContext);
   const navigate = useNavigate();

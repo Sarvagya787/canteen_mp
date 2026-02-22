@@ -1,7 +1,7 @@
 import { createContext, useState } from "react";
 
 // MATCHING YOUR EXISTING HARDCODED URL
-const baseURL = https://canteen-mp.onrender.com; 
+const baseURL = "https://canteen-mp.onrender.com";; 
 
 export const AdminActionContext = createContext(null);
 

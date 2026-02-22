@@ -4,7 +4,7 @@ import fuzzySearch from "../utilities/string-matching-algorithm";
 export const FoodItemsContext = createContext(null);
 
 // SAFETY FIX: Hardcoded URL
-const baseURL = https://canteen-mp.onrender.com;
+const baseURL = "https://canteen-mp.onrender.com";;
 
 const FoodItemsContextProvider = ({children}) => {
   

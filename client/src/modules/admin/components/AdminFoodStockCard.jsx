@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import VegIndicator from "../../user/components/VegIndicator"; 
 import { IoIosCheckmarkCircle } from "react-icons/io";
 import useAdminAction from "../../../shared/hooks/useAdminAction";
-const baseURL = https://canteen-mp.onrender.com;
+const baseURL = "https://canteen-mp.onrender.com";;
 
 const AdminFoodStockCard = ({foodItem,loadingState,handleApplyChanges}) => {
   const quantityRef = useRef(foodItem.quantity);

@@ -2,7 +2,7 @@ import { useEffect, useReducer, createContext, useMemo } from "react";
 import useAuth from "../hooks/useAuth";
 
 // 1. URL FIX
-const baseURL = https://canteen-mp.onrender.com;
+const baseURL = "https://canteen-mp.onrender.com";;
 
 const initialActiveOrderState = {
   pending: [],

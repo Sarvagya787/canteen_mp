@@ -4,7 +4,7 @@ import { useFoodItems } from "../../../../../shared/hooks/useFoodItems"; // We w
 import { IoAdd, IoCloudUploadOutline, IoCheckmarkCircle, IoAlertCircle } from "react-icons/io5";
 import NotificationPopup from "../../../../../shared/components/NotificationPopup";
 // SAFETY FIX: Hardcoded URL for stability
-const baseURL = https://canteen-mp.onrender.com;
+const baseURL = "https://canteen-mp.onrender.com";;
 
 // --- 1. Reusable Popup Component ---
 

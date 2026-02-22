@@ -26,7 +26,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: [process.env.CORS_URI, "https://sarvagya787.github.io/canteen_mp/"],
+  origin: process.env.CORS_URI,
   credentials: true                 
 }));
 
@@ -57,9 +57,9 @@ app.use(session({
   cookie: {
     httpOnly: true,
     maxAge: 1000 * 60 * 60 * 24 * 14, 
-    sameSite: 'lax',
-    //sameSite: 'none',
-    secure: false
+    //sameSite: 'lax',
+    sameSite: 'none',
+    secure: true
   }
 }));
 

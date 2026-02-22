@@ -26,7 +26,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: [process.env.CORS_URI, "https://localhost:5173"],
+  origin: [process.env.CORS_URI, "https://sarvagya787.github.io/canteen_mp/"],
   credentials: true                 
 }));
 

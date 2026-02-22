@@ -26,7 +26,7 @@ const app = express();
 
 
 app.use(cors({
-  origin: process.env.CORS_URI,
+  origin:[ process.env.CORS_URI,"https://sarvagya787.github.io"],
   credentials: true                 
 }));
 

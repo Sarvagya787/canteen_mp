@@ -43,7 +43,7 @@ app.use('/uploads', express.static('uploads')); // img ke liye static folder ser
 
 app.use(session({
   name: 'college_canteen.sid',
-  secret: 'made_by_Sigma_developer',
+  secret: process.env.SESSION_SECRET,
   resave: false,
   saveUninitialized: false,  
   store: new MongoStore({

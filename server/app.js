@@ -87,8 +87,4 @@ app.listen(process.env.PORT || 3000,()=>{
 
 
 
-// https.createServer(options,app).listen(process.env.PORT || 3000,()=>{
-//   console.log("Server is listining at port "+(process.env.PORT || 3000));
-// })
-// }).catch(err=>{
-//   console.log("Failed to connect with mongodb\n",err);
+

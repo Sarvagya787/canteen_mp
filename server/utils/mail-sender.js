@@ -1,6 +1,4 @@
 const nodemailer = require("nodemailer");
-require("dotenv").config();
-
 /**
  * 
  * @param {string} to - Recipient email address

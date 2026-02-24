@@ -19,7 +19,7 @@ const AuthLeftDesktopVisual = ()=>{
           {/* Circular Image Section */}
           <div className="relative w-14 h-14 overflow-hidden rounded-full border-2 border-slate-200 shadow-sm p-1.5">
             <img
-              src="/canteen_mp/public/fcritlogo.png"
+              src="/canteen_mp/fcritlogo.png"
               alt="FCRIT Logo"
               className="w-50px h-50px object-cover"
             />

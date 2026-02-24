@@ -34,7 +34,6 @@ const signupController = [
 
   check('confirm_password')
     .custom((value, { req }) => {
-      console.log(value, req.body.password)
       if (value !== req.body.password) {
         throw new Error('Confirm password must be same as password');
       }

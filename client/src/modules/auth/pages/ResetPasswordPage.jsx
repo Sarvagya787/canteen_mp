@@ -5,7 +5,7 @@ import {useNavigate} from 'react-router-dom';
 import EmailFormComponent from '../components/ResetPassForms/Email';
 import OTPFormComponent from '../components/ResetPassForms/OTP';
 import ResetPassFormComponent from '../components/ResetPassForms/ResetPass';
-const baseURL = "https://canteen-mp.onrender.com";;
+const baseURL = import.meta.env.VITE_SERVER_BASE_URL;
 
 
 const ResetPasswordPage = () => {

@@ -2,7 +2,7 @@
 import { useReducer, useMemo, createContext, useContext, useEffect, useState } from "react";
 import { useCart } from "./cart-context";
 import useAuth from "../hooks/useAuth";
-const baseURL = "https://canteen-mp.onrender.com";;
+const baseURL = import.meta.env.VITE_SERVER_BASE_URL;
 
 const OrderContext = createContext(null);
 

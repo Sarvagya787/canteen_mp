@@ -4,7 +4,7 @@ import { IoIosCheckmarkCircle } from "react-icons/io";
 import VegIndicator from './VegIndicator';
 import { useOrder } from '../../../shared/store/order-context';
 import { useCart } from '../../../shared/store/cart-context';
-const baseURL = "https://canteen-mp.onrender.com";;
+const baseURL = import.meta.env.VITE_SERVER_BASE_URL;
 
 const MenuFoodItemCard = ({ foodItem}) => {
   const {items, loading, addToCart } = useCart();

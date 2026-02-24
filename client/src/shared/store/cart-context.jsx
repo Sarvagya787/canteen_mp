@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useReducer, useMemo, useState } from "react";
 import { AuthContext } from "./auth-context";
-const baseURL = "https://canteen-mp.onrender.com";;
+const baseURL = import.meta.env.VITE_SERVER_BASE_URL;
 const CartContext = createContext(null);
 
 const initialState = {

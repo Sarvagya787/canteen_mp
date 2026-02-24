@@ -219,7 +219,7 @@ import {
   IoWalletOutline,
   IoReceiptOutline
 } from "react-icons/io5";
-const baseURL = "https://canteen-mp.onrender.com";;
+const baseURL = import.meta.env.VITE_SERVER_BASE_URL;
 
 const ProfilePage = () => {
   const navigate = useNavigate();
